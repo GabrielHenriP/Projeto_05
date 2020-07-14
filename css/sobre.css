@@ -1,0 +1,58 @@
+.sobre {
+    margin: 60px 0;
+    padding: 0 2%;
+}
+
+.sobre .center2 {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.center2 .img-destaque {
+    width: 100%;
+    padding-top: 60%;
+    background-color: coral;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.center2 .descricao-autor {
+    width: 100%;
+    margin-top: 50px;
+    text-align: justify;
+}
+
+.descricao-autor h2 {
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.descricao-autor p {
+    font-size: 20px;
+}
+
+.center2 .foto-info {
+    margin-top: 60px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.foto-info .img-autor {
+    width: 30%;
+    padding-top: 30%;
+    background-color: coral;
+}
+
+.foto-info p {
+    width: 68%;
+    font-size: 20px;
+    text-align: justify;
+}
+

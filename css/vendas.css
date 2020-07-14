@@ -1,0 +1,104 @@
+.vendas {
+    padding: 40px 4px;
+}
+
+.wraper_sidebar-vitrine {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.sidebar {
+    width: 26%;
+    margin-bottom: 20px;
+}
+
+.vitrine-destaque {
+    width: 73%;
+}
+
+.vitrine-single {
+    margin-top: 30px;
+}
+
+.sidebar h2 {
+    font-weight: normal;
+}
+
+.search1 .barra-preco {
+    width: 100%;
+    height: 20px;
+    margin-top: 8px;
+    background-color: white;
+    border-radius: 20px;
+    box-sizing: content-box;
+    border: 1px solid rgb(107, 106, 106);
+    position: relative;
+}
+
+.barra-preco .barra-preco-fill {
+    position: relative;
+    top: 0px;
+    left: 0;
+    width: 30%;
+    height: 20px;
+    background: linear-gradient(to right,rgb(199, 60, 60), rgb(255, 1, 1));
+    border-radius: 20px 0 0 20px;
+}
+
+.barra-preco .pointer-barra {
+    width: 26px;
+    height: 26px;
+    border-radius: 8px;
+    background: linear-gradient(to bottom, rgb(241, 241, 241), rgb(168, 167, 167));
+    border: 1px solid rgb(70, 69, 69);
+    position: absolute;
+    top: -3px;
+    left: calc(30% - 13px);
+    cursor: pointer;
+}
+
+.valorDaPesquisa {
+    display: flex;
+    justify-content: space-between;
+}
+
+.search2 {
+    margin-top: 30px;
+}
+
+.elemento-filtro {
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.elemento-filtro input {
+    display: none;
+}
+
+.elemento-filtro label {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.circle {
+    display: none;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: black;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.elemento-filtro input[type=checkbox]:checked + label > .circle {
+    display: block;
+}
+

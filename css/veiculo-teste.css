@@ -1,0 +1,102 @@
+.venda-single {
+    margin-top: 120px;
+    padding: 0 2%;
+}
+
+.venda-single .wraper-veiculo {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.wraper-veiculo .fotos-veiculo {
+    width: 60%;
+}
+
+.wraper-veiculo .info-bread {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.info-bread span {
+    margin: 0 10px;
+}
+
+.fotos-veiculo .foto-destaque {
+    width: 100%;
+    padding-top: 50%;
+    background-image: url('../imagens/carro1.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+}
+
+.fotos-veiculo .mini-galeria-arrows {
+    width: 100%;
+    padding: 25px;
+    position: relative;
+}
+.mini-galeria-arrows .arrow-left {
+    width: 15px;
+    height: 30px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    background-image: url('../imagens/arrow-left.png');
+    background-size: contain;
+}
+.mini-galeria-arrows .arrow-right {
+    width: 15px;
+    height: 30px;
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translate(-100%, -50%);
+    background-image: url('../imagens/arrow-right.png');
+    background-size: contain;
+}
+
+.fotos-veiculo .mini-galeria {
+    width: 100%;
+    overflow: scroll;
+}
+
+.mini-galeria .wraper-mini-galeria {
+    width: 200%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.wraper-mini-galeria .mini-img {
+    width: calc((100% / 3) * (100 / 200));
+    padding-top: calc((100% / 3) * (100 / 200) * 0.6);
+    background-image: url('../imagens/carro1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 2px solid white;
+}
+
+.descricao-veiculos {
+    align-self: flex-start;
+    width: 40%;
+}
+
+
+.descricao-veiculos p {
+    margin: 20px 0;
+}
+
+.relacionados {
+    margin-top: 120px;
+    padding: 0 2%;
+}
+
+.contato {
+    margin-top: 80px;
+}

@@ -1,0 +1,182 @@
+
+@media (max-width:1000px){
+    /*###############  home.html  ###################*/
+    section.banner {
+        height: 700px;
+    }
+
+    .foto-banner {
+        width: 100%;
+        padding-top: 0%;
+        height: 600px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .servicos{
+        top: 30px;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .servicos-single {
+        text-align: center;
+        padding-left: 0;
+        margin-bottom: 10px;
+    }
+
+    .servicos-single:nth-of-type(2),
+    .servicos-single:nth-of-type(3),
+    .servicos-single:nth-of-type(4) {
+        left: 0px;
+    }
+
+    /*###############  vendas.html  ##################*/
+    .wraper_sidebar-vitrine {
+        justify-content: center;
+    }
+
+    .sidebar {
+        width: 80%;
+        text-align: center;
+    }
+
+    .search2 form {
+        margin-top: 20px;
+    }
+
+    .elemento-filtro {
+        width: 127px;
+        margin: 0 auto;
+        margin-top: 8px;
+    }
+    
+    .vitrine-destaque {
+        width: 90%;
+    }
+
+}
+
+@media (max-width:768px){
+    header .menu-desktop {
+        display: none;
+    }
+
+    header .menu-mobile {
+        display: block;
+    }
+
+    section.banner {
+        height: 500px;
+    }
+
+    .foto-banner {
+        height: 400px;
+    }
+
+    .vitrine-single {
+        width: 47%;
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .wraper-left {
+        width: 93%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .wraper-right {
+        width: 93%;
+        text-align: center;
+    }
+
+    .servicos-depoimentos .left {
+        height: 400px;
+        width: 100%;
+    }
+
+    .left li {
+        margin: 0 auto;
+        text-align: left;
+        width: 260px;
+    }
+
+    .servicos-depoimentos .right {
+        height: 400px;
+        width: 100%;
+    }
+
+    .contato form {
+        width: 98%;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    footer nav {
+        float: none;
+    }
+
+    footer nav ul {
+        display: inline-block;
+    }
+
+    footer nav li {
+        padding-right: 20px;
+    }
+
+    footer nav a {
+        font-size: 18px;
+    }
+
+    footer nav li:nth-of-type(4){
+        padding-right: 0px;
+    }
+        
+    footer p {
+        float: none;
+        display: inline-block;
+        font-size: 18px;
+        margin-top: 20px;
+    }
+
+    .venda-single .wraper-veiculo {
+        flex-direction: column;
+    }
+
+    .descricao-veiculos {
+        align-self: center;
+        text-align: center;
+    }
+
+    .center2 p {
+        font-size: 18px;
+    }
+
+}
+
+@media (max-width:480px){
+    /*###############  home.html  ###################*/
+    .contato .w50 {
+        width: 100%;
+    }
+
+    .contato .w50 + .w50 {
+        border-left: 0;
+    }
+    /*###############  vendas.html  #################*/
+    .sidebar {
+        width: 91%;
+    }
+
+    .vitrine-single {
+        width: 92%;
+    }
+   
+}
