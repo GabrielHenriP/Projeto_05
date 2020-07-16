@@ -18,20 +18,20 @@
 
             <nav class="menu-desktop">
                 <ul>
-                    <li><a style="color:rgb(218, 32, 32)" href="">Home</a></li>
+                    <li><a class="red" style="color:rgb(218, 32, 32)" href="">Home</a></li>
                     <li><a href="vendas.html">Venda</a></li>
                     <li><a href="sobre.html">Sobre</a></li>
-                    <li><a href="">Contato</a></li>
+                    <li><a goto="contato" href="">Contato</a></li>
                 </ul>
             </nav><!--menu-desktop-->
             
 
             <nav class="menu-mobile">
                 <ul>
-                    <li><a href="" class="red">Home</a></li>
+                    <li><a  href="" class="red">Home</a></li>
                     <li><a href="">Venda</a></li>
                     <li><a href="sobre.html">Sobre</a></li>
-                    <li><a href="">Contato</a></li>
+                    <li><a goto="contato" href="">Contato</a></li>
                 </ul>
             </nav><!--menu-mobile-->
             <div class="clear"></div>
@@ -103,12 +103,14 @@
             <div class="wraper-right">
                 <h2>Depoimentos</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum esse, sunt asperiores veritatis omnis odit delectus error et dolor exercitationem dolores, quam voluptates ad est accusamus magni eligendi quidem voluptatem?</p>
-                <p>Nome Completo da Pessoa</p> 
-                <img src="imagens/arrow-left.png" alt="Seta para esquerda">
-                <img src="imagens/arrow-right.png" alt="Seta para direita">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed adipisci inventore aliquam, veniam ipsam laboriosam cum suscipit corporis sunt. Vel sunt ratione asperiores accusamus quasi non expedita optio tenetur deserunt.</p>
+                <span>Nome Completo da Pessoa</span> 
+                <span>Outro Nome de Pessoa</span> 
+                <img befor src="imagens/arrow-left.png" alt="Seta para esquerda">
+                <img next src="imagens/arrow-right.png" alt="Seta para direita">
                 
-            </div>
-        </div>
+            </div><!-- wraper-right -->
+        </div><!-- right -->
 
     </section><!--servicos-depoimentos"-->
 
@@ -142,10 +144,10 @@
         <div class="center">
             <nav >
                 <ul>
-                    <li><a style="color:rgb(218, 32, 32)" href="">Home</a></li>
+                    <li><a id="home" style="color:rgb(218, 32, 32)" href="">Home</a></li>
                     <li><a href="vendas.html">Venda</a></li>
                     <li><a href="sobre.html">Sobre</a></li>
-                    <li><a href="">Contato</a></li>
+                    <li><a goto="contato" href="">Contato</a></li>
                 </ul>
             </nav><!--menu-desktop-->
             <p>Todos os direitos reservados</p>
@@ -153,6 +155,8 @@
             <div class="clear"></div>
         </div><!--center-->
     </footer>
-    
+
+    <script src="js/jquery.js"></script>
+    <script src="js/functions.js"></script>
 </body>
 </html>
