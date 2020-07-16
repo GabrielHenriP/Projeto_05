@@ -69,6 +69,10 @@
         display: block;
     }
 
+    .menu-mobile ul {
+        display: none;
+    }
+
     section.banner {
         height: 500px;
     }
